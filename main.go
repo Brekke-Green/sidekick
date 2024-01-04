@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-    f, err := os.Open("619_E_Fifth_St.m4a")
+    f, err := os.Open("random.mp3")
     if err != nil {
         log.Fatal(err)
     }
