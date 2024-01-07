@@ -4,7 +4,9 @@ import (
     "log"
     "os"
     "time"
+    "fmt"
 
+    tea "github.com/charmbracelet/bubbletea"
     "github.com/gopxl/beep"
     "github.com/gopxl/beep/speaker"
     "github.com/gopxl/beep/mp3"
